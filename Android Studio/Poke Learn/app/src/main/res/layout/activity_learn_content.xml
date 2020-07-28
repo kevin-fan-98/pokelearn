@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="true"
+    tools:context=".LearnContent">
+
+    <Button
+        android:id="@+id/content1"
+        android:layout_width="220dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="100dp"
+        android:text="Button"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        android:background="@drawable/learnbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/content2"
+        android:layout_width="220dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="100dp"
+        android:text="Button"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:background="@drawable/learnbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content1" />
+
+    <Button
+        android:id="@+id/content3"
+        android:layout_width="220dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="100dp"
+        android:text="Button"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        android:background="@drawable/learnbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
